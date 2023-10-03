@@ -1,0 +1,217 @@
+{
+  "EN": {
+    "mniSettings": "Settings",
+    "mniGeneral": "General",
+	"mniChartSetting": "Charts",
+	"mniProcessData": "Process Data",
+	"mniConvertGameDataWeka": "Convert Game Data -> Weka",
+	"mniExit": "Exit",
+	"mniChangeTheLanguage": "Change the Language",
+	"lblIPadress": "IP Adress",
+	"lblPort": "Port",
+	"lblDeviceMacAddress": "Dispositivo (MA)",
+	"lblFreq": "Freq",
+	"lblHzFreq": "Hz",
+	"gpbCollectionController": "Collection Controller",
+	"rdbSaveOriginalImage": "Save captured image in original size",
+	"rdbSaveResizedImage": "Save captured image at",
+	"chkAutomaticSaveChart": "Automatic Save Chart",
+	"chkAutomaticGenerateOutputToFile": "Automatically Generate Output To File",
+	"gpbSensors": "Capture Data from Sensors:",
+	"lklVisualizeMapping": "Visualize Mapping",
+	"lblChannel1": "channel",
+	"lblChannel2": "channel",
+	"btnStartRecording": "Start Recording ",
+	"textAlterButtonStopRecording": "Stop Recording",
+	"btnStartCollection": "Start Collection",
+	"btnStopCollection": "Stop Collection",	
+	"lklRemoveAllRecordedBiosignals": "Remove All Recorded Biosignals",
+	"lklOpenFoldersSavedCharts": "Open Folders of Saved Charts",
+	"lklOpenFolderCollectedData": "Open Folder of Collected Data",
+	"gpbLevelOfCS": "Level Of CS (If voice recognition is enabled, please speak 0, 1, 2 or 3 in English)",
+	"rdbLevel0": "Level 0 (none)",
+	"rdbLevel1": "Level 1 (Mild)",
+	"rdbLevel2": "Level 2 (Moderate)",
+	"rdbLevel3": "Level 3 (Severe)",
+	"gpbLogCollection": "Log Collection",
+	"lklOpenLogFile": "Open Log File",
+	"lblOpenLogFolder": "Open Log Folder",
+	"btnExit": "Exit",
+	"msgRemovedChartJson": "Removed charts and Json files",
+	"msgRemovedChartFiles": "Removed charts files",
+	"msgRemovedJsonFiles": "Removed Json files",
+	"msgConfirmRemoveRecordBiosignal": "Confirm to remove all recorded biosignal charts and files?",
+	"msgErrorExitSystem": "Error exiting system!",
+	"msgMandatorySelectCheckBoxAutoSave": "It is necessary to select 'Automatic Save Chart' and/or 'Automatically Generate Output To File'.",
+	"msgConflictChannelSensors" : "No two equal values are allowed.",
+	"msgproblemEnableVoiceRecognition" : "Unable to enable voice recognition. You need to set your Operating System to English language and enable this feature.",	
+	"gpbConnection": "Connection",
+	"lblMacAddress": "MAC Address",
+	"lblPort": "Port",
+	"lblIpAdress": "IP Address",
+	"lblSamplingFreq": "Sampling Freq",
+	"gpbResizeGraphics": "In case of resizing the graphics, define dimensions",
+	"lblResizeHeightTo": "Resize Width To",
+	"lblResizeWidthTo": "Resize Height To",
+	"lblRecordingTimeInterval": "Graph recording interval",
+	"lblUnitTimeInterval": "second(s)",
+	"chkptbEnableSpeechRecognition": "Enable Speech Recognition",
+	"btnCancel": "&Cancel",
+	"btnSave": "&Save",
+	"msgNecessaryDefineIntervalRecording": "It is necessary to define a time interval for recording.",
+	"msgConfigureSuccess" : "Configuration Changed Successfully.",
+	"lblSelectChart": "Select the Chart",
+	"lblChartJson": "Chart configuration in Json Format",
+	"lklRestoreChartConfiguration": "Restore Chart Configuration", 
+	
+	"rtbObservation" : "	
+	\"AxisXMinimum\": Defines the minimum value on the graph's X axis.
+	\"AxisXMaximum\": Defines the maximum value on the graph's X axis.
+	\"AxisXInterval\": Defines the interval between the values marked on the graph's X axis.
+	\"AxisYMinimum\": Defines the minimum value on the Y axis of the chart.
+	\"AxisYMaximum\": Defines the maximum value on the Y axis of the chart.
+	\"AxisYInterval\": Defines the interval between the values marked on the Y axis of the chart
+	\"AxisXTitle\": Defines the X axis title of the graph.
+	\"AxisXLabelStyleEnabled\": Indicates whether the X axis labels style is enabled.
+	\"AxisYTitle\": Defines the title of the chart's Y axis.
+	\"AxisYLabelStyleEnabled\": Indicates whether the Y axis labels style is enabled.
+	\"AxisXMajorGridEnabled\": Indicates whether major gridlines are enabled on the X axis.
+	\"AxisYMajorGridEnabled\": Indicates whether major gridlines are enabled on the Y axis.
+	\"AxisYComplement\": Sets a complement value for the chart's Y axis.
+	\"AxisXMinimumNewPositionAfterMaxingout\": Defines the new minimum position of the X axis after reaching the maximum value.
+	\"AxisXMaximumNewPositionAfterMaxingout\": Defines the new maximum position of the X axis after reaching the maximum value.
+	\"ScaleMovePointToPointOnTheAxisX\": Sets the point-to-point scale movement on the graph's X axis.
+
+	",	
+	
+	"btnClose" : "&Close",	
+	"msgConfigureChangedSuccess" : "Chart Configuration Changed successfully.",
+"msgNecessaryFillChartConfigurationJsonFormat" : "It is necessary to fill in the field 'Chart configuration in Json Format'",
+
+	"FrmConfig" : "Settings",
+	"FrmChartConfig" : "Chart Configuration",
+	"FrmConvertGameDataWeka": "Convert Game Data -> Weka",
+	"FrmLanguage" : "Change the Language",
+	"FrmBoardChannelMapping" :"Board Channel Mapping",
+	"lblSelectDirectory": "Select Directory",
+	"btnSelectDirectory" : "Select...",
+	"btnConvert" : "&To Convert",
+	"btnCancel" : "&Cancel",
+	"saveFileDialog.Title": "Save ARFF file",
+	"saveFileDialogSuccess" : "ARFF file successfully saved!",
+	"titleMsgSuccess": "Success",
+	"titleMsgError": "Error",
+	"msgErrorConvertData": "An error occurred while converting the data",
+	"ConversionCompletedSuccess": "Conversion completed successfully!",
+	
+	"gpbSelectLanguage": "Select Language",
+	
+	"exitSystem": "Exit System?"
+  },
+  
+  "PT": {
+    "mniSettings": "Configurações",
+    "mniGeneral": "Geral",
+	"mniChartSetting": "Gráficos",
+	"mniProcessData": "Processar Dados",
+	"mniConvertGameDataWeka": "Converter Dados do Jogo  -> Weka",
+	"mniExit": "Sair",
+	"mniChangeTheLanguage": "Alterar Idioma",
+	"lblIPadress": "Endereço IP",
+	"lblPort": "Porta",
+	"lblDeviceMacAddress": "Dispositivo (MA)",
+	"lblFreq": "Freq",
+	"lblHzFreq": "Hz",	
+	"gpbCollectionController": "Controlador de Coleta",
+	"rdbSaveOriginalImage": "Salvar imagem capturada no tamanho original",
+	"rdbSaveResizedImage": "Salvar imagem capturada em",
+	"chkAutomaticSaveChart": "Salvamento de gráfico automático",
+	"chkAutomaticGenerateOutputToFile": "Gerar arquivo automaticamente",
+	"gpbSensors": "Capturar Dados dos Sensores:",
+	"lklVisualizeMapping": "Visualizar Mapeamento",
+	"lblChannel1": "canal",
+	"lblChannel2": "canal",
+	"btnStartRecording": "Iniciar Gravação",
+	"textAlterButtonStopRecording": "Parar Gravação",
+	"btnStartCollection": "Iniciar Coleta",
+	"btnStopCollection": "Parar Coleta",
+	"lklRemoveAllRecordedBiosignals": "Remover todos os biosinais registrados",
+	"lklOpenFoldersSavedCharts": "Abrir pastas de gráficos salvos",
+	"lklOpenFolderCollectedData": "Abrir pasta de dados coletados",
+	"gpbLevelOfCS": "Nível de CS (Se o reconhecimento de voz estiver ativo, favor falar 0, 1, 2 ou 3 em Inglês)",
+	"rdbLevel0": "Nível 0 (Nenhum)",
+	"rdbLevel1": "Nível 1 (Leve)",
+	"rdbLevel2": "Nível 2 (Moderado)",
+	"rdbLevel3": "Nível 3 (Grave)",
+	"gpbLogCollection": "Coleta de Logs",
+	"lklOpenLogFile": "Abrir Arquivo de Log",
+	"lblOpenLogFolder": "Abrir Pasta de Log",
+	"btnExit": "Sair",
+	"msgRemovedChartJson": "Gráficos e arquivos Json removidos",
+	"msgRemovedChartFiles": "Arquivos de gráficos removidos",
+	"msgRemovedJsonFiles": "Arquivos Json removidos",
+	"msgConfirmRemoveRecordBiosignal": "Confirmar remover todos os gráficos e arquivos de biossinais gravados?",
+	"msgErrorExitSystem": "Erro ao sair do sistema!",
+	"msgMandatorySelectCheckBoxAutoSave": "É necessário selecionar 'Gráfico de Salvamento Automático' e/ou 'Gerar Saída para Arquivo Automaticamente'.",	
+	"msgConflictChannelSensors": "Não são permitidos dois valores iguais.",
+"msgproblemEnableVoiceRecognition": "Não foi possível habilitar o reconhecimento de voz. Você precisa configurar seu sistema operacional para o idioma inglês e habilitar esse recurso.",
+	"gpbConnection": "Conexão",
+	"lblMacAddress": "Endereço MAC",
+	"lblPort": "Porta",
+	"lblIpAdress": "Endereço IP",
+	"lblSamplingFreq": "Freq. de Amostr.",
+	"gpbResizeGraphics": "No caso de redimensionar os gráficos, defina as dimensões",
+	"lblResizeHeightTo": "Redim. largura para",
+	"lblResizeWidthTo": "Redim. altura para",
+	"lblRecordingTimeInterval": "Int. Gravação do Gráfico",
+	"lblUnitTimeInterval": "segundo(s)",
+	"chkptbEnableSpeechRecognition": "Ativar reconhecimento de fala",
+	"btnCancelar": "&Cancelar",
+	"btnSave": "&Salvar",
+	"msgNecessaryDefineIntervalRecording": "É necessário definir um intervalo de tempo para gravação.",
+	"msgConfigureSuccess" : "Configuração alterada com sucesso.",	
+	"lblSelectChart": "Selecione o gráfico",
+	"lblChartJson": "Configuração do gráfico no formato Json",
+	"lklRestoreChartConfiguration": "Restaurar Configuração do Gráfico",
+	"rtbObservation" : "\"AxisXMinimum\": Define o valor mínimo no eixo X do gráfico.
+\"AxisXMaximum\": Define o valor máximo no eixo X do gráfico.
+\"AxisXInterval\": Define o intervalo entre os valores marcados no eixo X do gráfico.
+\"AxisYMinimum\": Define o valor mínimo no eixo Y do gráfico.
+\"AxisYMaximum\": Define o valor máximo no eixo Y do gráfico.
+\"AxisYInterval\": Define o intervalo entre os valores marcados no eixo Y do gráfico
+\"AxisXTitle\": Define o título do eixo X do gráfico.
+\"AxisXLabelStyleEnabled\": Indica se o estilo de legenda do eixo X está habilitado.
+\"AxisYTitle\": Define o título do eixo Y do gráfico.
+\"AxisYLabelStyleEnabled\": Indica se o estilo de legenda do eixo Y está habilitado.
+\"AxisXMajorGridEnabled\": Indica se as linhas de grade principais estão habilitadas no eixo X.
+\"AxisYMajorGridEnabled\": Indica se as linhas de grade principais estão habilitadas no eixo Y.
+\"AxisYComplement\": Define um valor de complemento para o eixo Y do gráfico.
+\"AxisXMinimumNewPositionAfterMaxingout\": Define a nova posição mínima do eixo X após atingir o valor máximo.
+\"AxisXMaximumNewPositionAfterMaxingout\": Define a nova posição máxima do eixo X após atingir o valor máximo.
+\"ScaleMovePointToPointOnTheAxisX\": Define o movimento de escala ponto a ponto no eixo X do gráfico.",
+
+	"btnClose" : "&Fechar",
+	"msgConfigureChangedSuccess": "Configuração do gráfico alterada com sucesso.",
+	"msgNecessaryFillChartConfigurationJsonFormat": "É necessário preencher o campo 'Configuração do gráfico no formato Json'",	
+	
+	"FrmConfig" : "Configurações",
+	"FrmConvertGameDataWeka": "Converter Dados do Jogo -> Weka",
+	"FrmLanguage" : "Alterar Idioma",
+	"FrmBoardChannelMapping" :"Mapeamento de Canais da Placa",
+	"FrmChartConfig" : "Configuração do Gráfico",
+	"lblSelectDirectory": "Selecionar Diretório",
+	"btnSelectDirectory" : "Selecione...",
+	"btnConvert" : "Conver&ter",
+	"btnCancel" : "&Cancelar",
+	"saveFileDialog.Title": "Salvar Arquivo ARFF",
+	"saveFileDialogSuccess": "Arquivo ARFF salvo com sucesso!",
+	"titleMsgSuccess": "Sucesso",
+	"titleMsgError": "Erro",
+	"msgErrorConvertData": "Ocorreu um erro ao converter os dados",
+	"ConversionCompletedSuccess": "Conversão concluída com sucesso!",
+	
+	"gpbSelectLanguage": "Selecionar Idioma",
+	
+	"exitSystem": "Sair do Sistema?"
+  }
+}
