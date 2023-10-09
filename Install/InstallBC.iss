@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "BC"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "CIC UnB"
 #define MyAppExeName "BC.exe"
 
@@ -19,7 +19,7 @@ DefaultDirName=C:\CIC_UnB\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\bc\Install
-OutputBaseFilename=SetupBC_v_1.0.0.0
+OutputBaseFilename=SetupBC_v_1.0.1
 SetupIconFile=F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\bc\ImagesSources\favicon.ico
 Compression=lzma
 SolidCompression=yes

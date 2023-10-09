@@ -28,7 +28,7 @@ namespace BC.Forms
         public delegate void UpdateChartDelegate(string typeBioSignal, string jsonData, Chart chart, ChartConfiguration configurationChart);
 
 
-        public void SaveChart(Chart chart, string typeSignal, bool saveOriginalImage)
+        public void SaveChart(Chart chart, string typeSignal, bool saveOriginalImage, Config eConfig)
         {
             if (chart != null && chart.IsHandleCreated)
             {
@@ -42,6 +42,9 @@ namespace BC.Forms
 
                 int desiredWidth = eConfig.ResizeWidthTo;
                 int desiredHeight = eConfig.ResizeHeightTo;
+
+                Console.WriteLine("desiredWidth:" + desiredWidth);
+                Console.WriteLine("desiredHeight:" + desiredHeight);
 
                 if (saveOriginalImage)
                     chart.Invoke((MethodInvoker)(() => chart.SaveImage(pathFile, System.Drawing.Imaging.ImageFormat.Jpeg)));
@@ -103,5 +106,7 @@ namespace BC.Forms
             [JsonProperty("MAC_ADDRESS")]
             public List<List<dynamic>> Signal { get; set; }
         }
+
+       
     }
 }

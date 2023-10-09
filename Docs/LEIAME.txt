@@ -1,0 +1,3 @@
+A Versão 1.0.1 foi atualizada em 09/10/2023.
+
+Essa atualização tem como objetivo corrigir o redimensionamento dos gráficos, de acordo com os valores configurados no menu 'Configurações/Geral'.

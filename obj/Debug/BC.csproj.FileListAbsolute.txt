@@ -23,7 +23,6 @@ F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\bin\Debug\System.Runtime.Compiler
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\bin\Debug\System.Threading.Tasks.Extensions.xml
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\bin\Debug\Validation.xml
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\obj\Debug\BC.csproj.AssemblyReference.cache
-F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\obj\Debug\BC.csproj.SuggestedBindingRedirects.cache
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\obj\Debug\BC.Forms.FrmBaseBiosignal.resources
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\obj\Debug\BC.FrmChartBiosignal.resources
 F:\mestrado-unb\Dissertacao-Wedrey\Bitalino\BC\obj\Debug\BC.Forms.FrmChartConfig.resources

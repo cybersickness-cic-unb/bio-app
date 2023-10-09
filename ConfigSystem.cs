@@ -4,7 +4,7 @@ namespace BC.Resources
 {
     static class ConfigSystem
     {
-        static private string _titleSystem = "BC (Version 1.0.0)";
+        static private string _titleSystem = "BC (Version 1.0.1)";
         static private string _nameFileLog = "LogBC.txt";
 
         

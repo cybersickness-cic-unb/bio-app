@@ -119,9 +119,9 @@ namespace BC
             UpdateChart(typeBioSignal, jsonData, chartBiosignal, chartConfiguration);
         }
 
-        public void SaveChart(string typeSignal, bool saveOriginalImage)
+        public void SaveChart(string typeSignal, bool saveOriginalImage, Config eConfig)
         {
-            SaveChart(chartBiosignal, typeSignal, saveOriginalImage);
+            SaveChart(chartBiosignal, typeSignal, saveOriginalImage, eConfig);
         }
 
         private void FrmECG_FormClosing(object sender, FormClosingEventArgs e)

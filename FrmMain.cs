@@ -114,6 +114,7 @@ namespace BC
             if (String.Compare(eConfig.enableSpeechRecognition,"S") == 0)
                 InitializeSpeechRecognition();
 
+            this.Text = "Biosignal Collector  " + ConfigSystem.TitleSystem;
         }
 
         private void SetLanguage()
@@ -702,22 +703,22 @@ namespace BC
                                 try
                                 {
                                     if (driver.IsFormOpen("FrmECG"))
-                                        obFrmChartECG.SaveChart("ECG", rdbSaveOriginalImage.Checked);
+                                        obFrmChartECG.SaveChart("ECG", rdbSaveOriginalImage.Checked, eConfig);
 
                                     if (driver.IsFormOpen("FrmEEG"))
-                                        obFrmChartEEG.SaveChart("EEG", rdbSaveOriginalImage.Checked);
+                                        obFrmChartEEG.SaveChart("EEG", rdbSaveOriginalImage.Checked, eConfig);
 
                                     if (driver.IsFormOpen("FrmEGG"))
-                                        obFrmChartEGG.SaveChart("EGG", rdbSaveOriginalImage.Checked);
+                                        obFrmChartEGG.SaveChart("EGG", rdbSaveOriginalImage.Checked, eConfig);
 
                                     if (driver.IsFormOpen("FrmEMG"))
-                                        obFrmChartEMG.SaveChart("EMG", rdbSaveOriginalImage.Checked);
+                                        obFrmChartEMG.SaveChart("EMG", rdbSaveOriginalImage.Checked, eConfig);
 
                                     if (driver.IsFormOpen("FrmEDA"))
-                                        obFrmChartEDA.SaveChart("EDA", rdbSaveOriginalImage.Checked);
+                                        obFrmChartEDA.SaveChart("EDA", rdbSaveOriginalImage.Checked, eConfig);
 
                                     if (driver.IsFormOpen("FrmACC"))
-                                        obFrmChartACC.SaveChart("ACC", rdbSaveOriginalImage.Checked);
+                                        obFrmChartACC.SaveChart("ACC", rdbSaveOriginalImage.Checked, eConfig);
                                 }
                                 catch (Exception ex)
                                 {
